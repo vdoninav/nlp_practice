@@ -31,7 +31,10 @@ def send_welcome(message):
 def handle_message(message):
     global is_insane
     if message.chat.type in ['group', 'supergroup']:
-        if is_insane or f"@{bot_username}" in message.text:
+        if is_insane:
+            response = process_message(message.text)
+            bot.reply_to(message, response)
+        if f"@{bot_username}" in message.text:
             response = process_message(message.text[len(bot_username) + 2:])
             bot.reply_to(message, response)
     else:
