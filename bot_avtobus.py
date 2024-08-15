@@ -75,8 +75,8 @@ def send_response(message, response):
             bot.reply_to(message, response)
 
 
-tok = GPT2Tokenizer.from_pretrained("models/altbus2")
-model = GPT2LMHeadModel.from_pretrained("models/altbus2")
+tok = GPT2Tokenizer.from_pretrained("models/avtobus")
+model = GPT2LMHeadModel.from_pretrained("models/avtobus")
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
