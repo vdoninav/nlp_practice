@@ -26,7 +26,8 @@ Training script: run_clm.py (Causal Language Modeling)
 
 ### Data Processing:
 
-Custom scripts (extract_messages_*.py) for data extraction and preprocessing
+Custom scripts (extract_messages_avtobus.py, extract_messages_polkson.py) for data extraction and preprocessing
+
 Tokenization using GPT2Tokenizer
 
 
@@ -53,6 +54,7 @@ Accuracy: 0.5105
 ### Bot Functionality:
 
 Two separate bots created: "Avtobus" and "Polkson"
+
 Bots capable of generating responses in their respective styles
 Implemented features:
 
@@ -60,7 +62,7 @@ Responding to direct messages
 
 Replying when mentioned in group chats
 
-An "insanity mode" that can be toggled on/off
+An "insanity mode", when bots reply to all messages in a group, that can be toggled on/off
 
 
 
