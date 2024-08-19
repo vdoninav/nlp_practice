@@ -3,10 +3,10 @@
 ## Problem Statement:
 The project aims to create Telegram bots capable of engaging in natural language conversations in a specific style or manner. The challenge is to fine-tune a pre-existing language model (ruGPT3Small) on custom datasets to adopt particular communication patterns or personalities. This involves:
 
-Collecting and preprocessing conversation data from specific sources.
-Fine-tuning the ruGPT3Small model on this data.
-Implementing the fine-tuned models in Telegram bots.
-Hosting these bots for user interaction.
+1. Collecting and preprocessing conversation data from specific sources.
+2. Fine-tuning the ruGPT3Small model on this data.
+3. Implementing the fine-tuned models in Telegram bots.
+4. Hosting these bots for user interaction.
 
 ## Architecture:
 
