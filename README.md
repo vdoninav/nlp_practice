@@ -58,11 +58,11 @@ Two separate bots created: "Avtobus" and "Polkson"
 Bots capable of generating responses in their respective styles
 Implemented features:
 
-Responding to direct messages
+1. Responding to direct messages
 
-Replying when mentioned in group chats
+2. Replying when mentioned in group chats
 
-An "insanity mode", when bots reply to all messages in a group, that can be toggled on/off
+3. An "insanity mode", when bots reply to all messages in a group, that can be toggled on/off
 
 
 
